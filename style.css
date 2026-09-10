@@ -2,6 +2,12 @@ body{
 	margin:0px;
 	padding:0px;
 }
+p {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 .nav{
 	border-bottom:1px solid black;
 	height:50px;
@@ -13,10 +19,6 @@ body{
 }
 .navleft p{
 	margin-top:11px;
-}
-.navleft img{
-	height:30px;
-	padding:10px 5px;	
 }
 .bor{
 	border-radius:20px;
@@ -32,9 +34,6 @@ body{
 	width:50px;
 }
 .navc2{	
-	margin:2px 10px;
-	width:35px;
-	height:32px;
 	float:right;
 }
 .navright{
@@ -47,8 +46,8 @@ body{
 	padding:10px 15px;
 }
 .noti{
-	height:25px;
-	margin:10px 0px 10px 30px;
+	font-size:25px;
+	padding:10px 10px 0px 20px;
 }	
 .side{
 	border-right:1px solid black;
@@ -59,7 +58,7 @@ body{
 	margin-top:20px;
 }
 .sii{
-	height:30px;
+	font-size:30px;
 	padding:10px 0px 0px 20px;
 }
 .sip{
